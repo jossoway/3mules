@@ -1,0 +1,62 @@
+/* 3 Mules website styles */
+/* colours
+
+3 Mules green: #109560
+
+*/
+
+body
+{
+padding-top: 0;
+}
+
+.navbar-inner
+{
+background: #fff;
+padding-left: 0;
+padding-right: 0;
+}
+
+.navbar .brand {
+padding: 0px 20px 12px;
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+background-color: #109560;
+}
+
+.navbar .nav {
+margin-left: 150px;
+}
+
+.navbar .nav > li > a {
+float: none;
+padding: 20px 20px;
+line-height: 19px;
+color: #999;
+text-decoration: none;
+text-shadow: none;
+font-weight: bold;
+}
+
+.navbar .nav > li > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #222222;
+}
+
+.navbar .divider-vertical {
+  width: 1px;
+  height: 40px;
+  margin: 0 9px;
+  overflow: hidden;
+  background-color: #222222;
+  border-right: 1px solid #333333;
+}
