@@ -141,6 +141,32 @@
   .carousel-caption {
     position: static;
   }
+  
+  .brand img {
+	  max-width: 75%;
+  }
+  
+  .navbar .brand {
+	  padding: 0;
+	  margin: 5px 0 20px 0 !important;
+	  float: none;
+  }
+  
+  #welcome {
+	  padding: 0 0 30px 0;
+  }
+  
+  #welcome img {
+	  max-width: 75%;
+  }
+  
+  #welcome #introduction, #welcome #devices {
+	  padding: 20px;
+  }
+  
+  #welcome #introduction h1 {
+	  margin-top: 0;
+  }
 }
 
 /* mobile landscape and small tablet */
@@ -205,6 +231,11 @@
     display: inline-block;
     width: auto;
   }
+  
+  .navbar .container {
+	  width: auto;
+	  padding: 0;
+	  }
 }
 
 /* tablet to small desktop */
@@ -711,10 +742,7 @@
   .navbar-fixed-bottom .navbar-inner {
     padding: 5px;
   }
-  .navbar .container {
-    width: 724px;
-    padding: 0;
-  }
+  
   .navbar .brand {
     /* padding-right: 10px;
     padding-left: 10px; */
