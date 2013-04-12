@@ -89,6 +89,7 @@
     .navbar .brand {
     padding: 0 !important;
   }
+  
 }
 
 @media (max-width: 480px) {
@@ -221,7 +222,8 @@
   }
   .container,
   .navbar-fixed-top .container,
-  .navbar-fixed-bottom .container {
+  .navbar-fixed-bottom .container, 
+  .navbar .container {
     width: 724px;
   }
   .span12 {
@@ -702,7 +704,7 @@
     padding: 5px;
   }
   .navbar .container {
-    width: auto;
+    width: 724px;
     padding: 0;
   }
   .navbar .brand {
@@ -816,4 +818,9 @@
     height: auto !important;
     overflow: visible !important;
   }
+  .navbar .container
+  {
+	  width: 940px;
+  }
+  
 }

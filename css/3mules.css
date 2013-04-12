@@ -7,56 +7,109 @@
 
 body
 {
+background: #eceddf;
 padding-top: 0;
+color: #545454;
+font-size: 14px;
+font-family: "pragmatica-web",sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
 }
 
 .navbar-inner
 {
-background: #fff;
+background: #eceddf;
 padding-left: 0;
 padding-right: 0;
+-webkit-box-shadow: 0 0 0;
+-moz-box-shadow: 0 0 0;
+box-shadow: 0 0 0;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
 }
 
 .navbar .brand {
-padding: 0px 20px 12px;
-}
-
-.navbar .nav .active > a, .navbar .nav .active > a:hover {
-background-color: #109560;
+padding: 20px 20px 12px;
 }
 
 .navbar .nav {
-margin-left: 150px;
+margin-left: 170px;
 }
 
-.navbar .nav > li > a {
-float: none;
-padding: 20px 20px;
-line-height: 19px;
-color: #999;
-text-decoration: none;
-text-shadow: none;
-font-weight: bold;
+.navbar .nav li {
+	font-size: 16px;
+	list-style-type: none;
+	zoom: 1;
+	padding: 15px 10px 10px 20px;
+	background-image: url('../img/nav-slash.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	text-shadow: none;
 }
 
-.navbar .nav > li > a:hover {
-  color: #ffffff;
-  text-decoration: none;
-  background-color: transparent;
+.navbar .nav li:first-child {
+background: none;
 }
 
-.navbar .nav .active > a,
-.navbar .nav .active > a:hover {
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #222222;
+.navbar .nav li a {
+	text-shadow: none;
 }
 
-.navbar .divider-vertical {
-  width: 1px;
-  height: 40px;
-  margin: 0 9px;
-  overflow: hidden;
-  background-color: #222222;
-  border-right: 1px solid #333333;
+.navbar .nav li a:hover {
+	text-shadow: none;
+	color: #46750f;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	transition: all ease 0.3s;
 }
+
+/*Typography */
+
+h1, h2, h3, h4, cite {
+font-family: "proxima-nova-1","proxima-nova-2", sans-serif;
+color: #46750f;
+font-weight: normal;
+font-style: normal;
+}
+
+p {
+line-height: 24px;
+}
+
+/* Home page */
+
+#welcome
+{
+background: #fff;
+padding: 30px 0;
+margin-bottom: 30px;
+}
+
+#welcome h1
+{
+color: #a1c357;
+font: 20px/20px "proxima-nova-1","proxima-nova-2", sans-serif;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#welcome p {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.box {
+	background: #f5f5f5;
+	padding: 15px 20px 30px 20px;
+}
+
+footer {
+	margin-top: 30px;
+	border-top: dotted 1px #a1c357;
+	padding-top: 20px;
+}
+
