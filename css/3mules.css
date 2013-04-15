@@ -35,7 +35,8 @@ padding: 20px 20px 12px;
 }
 
 .navbar .nav {
-margin-left: 170px;
+margin-top: 45px;
+float: right;
 }
 
 .navbar .nav li {
@@ -57,7 +58,7 @@ background: none;
 	text-shadow: none;
 }
 
-.navbar .nav li a:hover {
+.navbar .nav li a:hover, .navbar .nav li a.current {
 	text-shadow: none;
 	color: #46750f;
 	-webkit-transition: all ease 0.3s;
@@ -75,7 +76,8 @@ font-style: normal;
 }
 
 p {
-line-height: 24px;
+line-height: 20px;
+margin: 0 0 20px 0;
 }
 
 /* Home page */
@@ -106,6 +108,31 @@ margin-bottom: 20px;
 	background: #fff;
 	padding: 15px 20px 30px 20px;
 	margin-bottom: 20px;
+	border-bottom: solid 2px #ccc;
+	border-top: solid 1px #ececec;
+	border-left: solid 1px #ececec;
+	border-right: solid 1px #ececec;
+	
+}
+
+#what-we-do h1 {
+	font: 20px/20px "proxima-nova-1","proxima-nova-2", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: dotted 2px #a1c357;
+	padding-bottom: 5px;
+	color: #46750f;
+}
+
+#what-we-do .box img {
+	float: left;
+	margin-right: 10px;
+}
+	
+#what-we-do .box h2 {
+	margin: 20px 0 30px 0;
 }
 
 footer {
@@ -119,6 +146,7 @@ footer {
 
 footer .box {
 	background: #333;
+	border: none;
 }
 
 footer h4 {
@@ -128,4 +156,50 @@ footer h4 {
 		text-transform: uppercase;
 		margin-top: 0px;
 		margin-bottom: 10px;
+}
+
+.circle	{	
+	height: 20px;
+	width: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #a1c357;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	line-height: 23px;	
+	}
+	
+#maincontent img {
+	padding: 2px;
+	border: solid 1px #ccc;
+}
+
+#maincontent .team-member {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: dotted 1px #a1c357;
+	
+}
+
+#maincontent img.team {
+	border: none;
+	margin: 0 0 20px 0;
+}
+
+#maincontent img.alignleft {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#maincontent img.alignright {
+	float: right;
+	margin: 0  0 10px 10px;
+}
+
+#maincontent h1 {
+	border-bottom: solid 1px #a1c357;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
 }

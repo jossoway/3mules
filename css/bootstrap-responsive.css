@@ -92,6 +92,23 @@
     padding: 0 !important;
   }
   
+  #what-we-do .box img {
+	  max-width: 20%;
+  }
+  
+  #what-we-do .box h2 {
+	  margin: 4px 0 10px 0;
+  }
+  
+  .navbar .btn-navbar {
+	  margin-top: 45px;
+  }
+  
+  h2 {
+font-size: 22px;
+line-height: 36px;
+}
+  
 }
 
 /* mobile landscape */
@@ -146,11 +163,6 @@
 	  max-width: 75%;
   }
   
-  .navbar .brand {
-	  padding: 0;
-	  margin: 5px 0 20px 0 !important;
-	  float: none;
-  }
   
   #welcome {
 	  padding: 0 0 30px 0;
@@ -167,6 +179,16 @@
   #welcome #introduction h1 {
 	  margin-top: 0;
   }
+  
+  .navbar .btn-navbar {
+	  margin-top: 40px !important;
+	  padding: 10px; 
+  }
+  
+  .navbar .brand {
+	  padding: 0 !important;
+  }
+  
 }
 
 /* mobile landscape and small tablet */
@@ -236,6 +258,19 @@
 	  width: auto;
 	  padding: 0;
 	  }
+	  
+	   .navbar .btn-navbar {
+	  margin-top: 40px !important;
+	  padding: 10px; 
+  }
+  
+  .navbar .brand {
+	  padding: 0 !important;
+  }
+  
+  #welcome #introduction, #welcome #devices {
+padding: 20px;
+}
 }
 
 /* tablet to small desktop */
@@ -789,7 +824,7 @@
   }
   .nav-collapse .nav > li > a:hover,
   .nav-collapse .dropdown-menu a:hover {
-    background-color: #222222;
+    background-color: #fff;
   }
   .nav-collapse.in .btn-group {
     padding: 0;
@@ -853,7 +888,6 @@
 	  }
   
   .navbar .nav {
-	margin: 0;
 	}
 	
 	.navbar .nav li {
