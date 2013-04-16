@@ -11,11 +11,13 @@ background: #eceddf;
 padding-top: 0;
 color: #545454;
 font-size: 14px;
-font-family: "pragmatica-web",sans-serif;
+font-family: "rooney-sans",sans-serif;
 font-style: normal;
 font-weight: 400;
 line-height: 16px;
 }
+
+
 
 .navbar-inner
 {
@@ -69,16 +71,31 @@ background: none;
 /*Typography */
 
 h1, h2, h3, h4, cite {
-font-family: "proxima-nova-1","proxima-nova-2", sans-serif;
+font-family: "proxima-nova", sans-serif;
 color: #46750f;
 font-weight: normal;
 font-style: normal;
+font-weight: 400;
 }
 
 p {
 line-height: 20px;
 margin: 0 0 20px 0;
 }
+
+#maincontent h1 {
+	font: 20px/20px "proxima-nova", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-bottom: dotted 1px #a1c357;
+	padding-bottom: 5px;
+	color: #a1c357;
+	font-style: normal;
+	font-weight: 600;
+}
+
 
 /* Home page */
 
@@ -92,11 +109,13 @@ margin-bottom: 30px;
 #welcome h1
 {
 color: #a1c357;
-font: 20px/20px "proxima-nova-1","proxima-nova-2", sans-serif;
+font: 20px/20px "proxima-nova", sans-serif;
 letter-spacing: 2px;
 text-transform: uppercase;
 margin-top: 20px;
 margin-bottom: 20px;
+font-style: normal;
+font-weight: 400;
 }
 
 #welcome p {
@@ -111,29 +130,128 @@ margin-bottom: 20px;
 	border-bottom: solid 2px #ccc;
 	border-top: solid 1px #ececec;
 	border-left: solid 1px #ececec;
-	border-right: solid 1px #ececec;
-	
+	border-right: solid 1px #ececec;	
 }
 
-#what-we-do h1 {
-	font: 20px/20px "proxima-nova-1","proxima-nova-2", sans-serif;
+.section {
+	background: #fff;
+	padding: 15px 20px 30px 20px;
+	margin-bottom: 20px;
+}
+
+.top-section {
+	background: #fff;
+	padding: 15px 20px 15px 20px;
+	margin-bottom: 0px;
+}
+
+#home-what-we-do h1 {
+	font: 20px/20px "proxima-nova", sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border-bottom: dotted 2px #a1c357;
+	border-bottom: dotted 1px #a1c357;
 	padding-bottom: 5px;
 	color: #46750f;
+	font-style: normal;
+	font-weight: 400;
 }
 
-#what-we-do .box img {
+#home-what-we-do .box img {
 	float: left;
 	margin-right: 10px;
 }
 	
-#what-we-do .box h2 {
+#home-what-we-do .box h2 {
 	margin: 20px 0 30px 0;
 }
+
+
+
+/* What we do */
+
+#what-we-do, #work {
+	background: #fff;
+	margin-bottom: 20px;
+	border-bottom: solid 2px #ccc;
+	border-top: solid 1px #ececec;
+	border-left: solid 1px #ececec;
+	border-right: solid 1px #ececec;
+}
+
+#maincontent #what-we-do img {
+	float: left;
+	margin-right: 10px;
+	border: 0;
+	padding: 0;
+}
+
+#what-we-do h2 {
+	margin: 20px 0 30px 0;
+}
+
+#what-we-do p {
+	clear: left;
+}
+
+#what-we-do .section ul {
+	padding: 0;
+	margin: 0;
+}
+
+
+#what-we-do .section li {
+	list-style-type: none;
+	padding-left: 35px;
+	background: url('../img/icon-circle-tick.png') no-repeat 0px 4px;
+	line-height: 35px;
+	border-bottom: dotted 1px #ccc;
+	margin-top: 7px;
+}
+
+/* work */
+
+#maincontent img.screenshot {
+	border: none;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0 8px 6px -6px #333;
+	-moz-box-shadow: 0 8px 6px -6px #333;
+	box-shadow: 0 8px 6px -6px #333;
+}
+
+
+
+#maincontent #work h2 {
+	font: 16px/16px "proxima-nova", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-bottom: dotted 1px #a1c357;
+	padding-bottom: 5px;
+	color: #a1c357;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.work-profile ul {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.work-profile li {
+	list-style-type: none;
+	padding-left: 25px;
+	background: url('../img/icon-circle-tick-small.png') no-repeat 0px 6px;
+	line-height: 25px;
+	border-bottom: dotted 1px #ccc;
+	margin-top: 7px;
+}
+
+
+/* Footer */
+
 
 footer {
 	margin-top: 30px;
@@ -151,11 +269,13 @@ footer .box {
 
 footer h4 {
 		color: #a1c357;
-		font: 16px/16px "proxima-nova-1","proxima-nova-2", sans-serif;
+		font: 16px/16px "proxima-nova", sans-serif;
 		letter-spacing: 1px;
 		text-transform: uppercase;
 		margin-top: 0px;
 		margin-bottom: 10px;
+		font-style: normal;
+		font-weight: 600;
 }
 
 .circle	{	
@@ -168,8 +288,37 @@ footer h4 {
 	display: inline-block;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	line-height: 23px;	
+	line-height: 22px;	
 	}
+	
+footer ul {
+	padding: 0;
+	margin: 10px 0;
+}
+
+footer li {
+	list-style-type: none;
+	margin: 5px 0;
+	border-bottom: dotted 1px #f5f5f5;
+	padding: 5px 0;
+}
+
+footer li a {
+	color: #f5f5f5;
+	text-decoration: none;
+}
+
+footer li a:hover {
+	color: #f5f5f5;
+	text-decoration: underline;
+}
+
+footer li span {
+	font-weight: bold;
+}
+	
+	
+/*main content */
 	
 #maincontent img {
 	padding: 2px;
@@ -198,8 +347,36 @@ footer h4 {
 	margin: 0  0 10px 10px;
 }
 
-#maincontent h1 {
-	border-bottom: solid 1px #a1c357;
+/* Aside */
+
+.widget h4
+{
+	font: 14px/14px "proxima-nova", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-bottom: dotted 1px #a1c357;
 	padding-bottom: 5px;
-	margin-bottom: 20px;
+	color: #a1c357;
+	font-style: normal;
+	font-weight: 600;
 }
+
+.widget ul {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+.widget li {
+	list-style-type: none;
+	margin: 5px 0;
+	border-bottom: dotted 1px #ccc;
+	padding: 5px 0;
+}
+
+.widget li span {
+	font-weight: bold;
+}
+
+
